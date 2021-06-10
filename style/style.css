@@ -1,0 +1,197 @@
+#dates{
+    display: inline-flex;
+    text-align: center;
+      width: 75%;
+      height: 100px;
+      margin-left: 2px;
+      margin-top: 2px;
+}
+
+div.day{
+    width: 20%;
+    height: 90px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    display: inline-flex;
+    border-right: 1px double;
+  }
+
+  .movie {
+    min-height: 40%;
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+}
+
+#ekran {
+    width: 300px;
+    height: 20px;
+    background-color: gray;
+    text-align: center;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.sala {
+    width: 500px;
+    margin-left: -50px;;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#lp {
+    width:25px;
+    height:25px;
+    font-size: 15px;
+    text-align: left;
+    margin: 5px 5px 0 0;
+    display: inline-block;
+}
+
+.day form{
+    margin-left: auto;
+      margin-right: auto;
+    }
+    .day form input{
+        display: inline-flex;
+        margin-top: auto;
+      margin-bottom: auto;
+    }
+    input[type="checkbox"] {
+        display:none;
+    }
+    
+    input[type="checkbox"] + label {
+        color: #D8DFDC;
+      text-align: center;
+    
+    }
+    
+    input[type="checkbox"] + label span {
+        display:inline-block;
+        width:25px;
+        height:25px;
+    
+        font-size: 15px;
+        margin: 5px 5px 0 0;
+        vertical-align: middle;
+        background-color: #2A8A33;
+        cursor:pointer;
+        box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+        border-radius: 20%;
+    
+    }
+    
+    input[type="checkbox"]:checked + label span {
+        background-color: #3E4D47;
+        box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+    }
+    
+    input[type="checkbox"]:disabled + label span {
+        background-color: #c10115;
+        box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+    }
+
+    #info-sala{
+        clear:both;
+    }
+
+    input.btn{
+            
+        border: none;
+        background: #00f28f;
+        color: #fff;
+        cursor: pointer;
+        font-size: 22px;
+        padding: 10px 14px;
+        margin: 15px;
+        transition: background 2s, color 2s;
+    }
+    
+    input.btn:hover {
+        background: transparent;
+        color: #00f28f;
+    }
+
+    .buttonpowrot{
+        background: red;
+        color: #fff;
+        padding: 10px 10px;
+        margin: 10px;
+    }
+
+
+    .zapowiedz {
+        display: inline-block;
+    }
+
+    figure {
+        float: left;
+        width: 200px;
+        height: 260px;
+        text-align: center;
+    }
+    
+    figcaption {
+        
+        text-align: center;
+    }
+
+    #confirm_header{
+        width: 100%;
+    }
+
+    #confirm_body{
+        width: 100%;
+    }
+
+    #confirm_footer{
+        width: 100%;
+    }
+
+    a{
+        color:white;
+    }
+
+    footer a{
+        color:black;
+    }
+
+    a:hover{
+        color: green;
+    }
+
+    #pan p{
+      
+        width: 100%;
+    }
+
+    .container{
+        min-height: 70%;
+    }
+
+    #zalogowano{
+        width: 100%;
+        clear: both;
+    }
+
+    #ceny{
+        width: 100%;
+    }
+
+    #adm{
+        width: 100%;
+        float: left;
+    }
+
+    table{
+        width: 100%;
+        color: #abcbed;
+    }
+
